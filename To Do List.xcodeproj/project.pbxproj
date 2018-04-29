@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B808464209506580095F1B2 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B808463209506580095F1B2 /* ToDo.swift */; };
 		6BB70FEA207467BD0075C29D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB70FE9207467BD0075C29D /* AppDelegate.swift */; };
 		6BB70FEF207467BD0075C29D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB70FED207467BD0075C29D /* Main.storyboard */; };
 		6BB70FF2207467BD0075C29D /* To_Do_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BB70FF0207467BD0075C29D /* To_Do_List.xcdatamodeld */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B808463209506580095F1B2 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		6BB70FE6207467BD0075C29D /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB70FE9207467BD0075C29D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BB70FEE207467BD0075C29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				6BB70FE9207467BD0075C29D /* AppDelegate.swift */,
 				6BB70FFE207473E30075C29D /* ToDoTableViewController.swift */,
+				6B808463209506580095F1B2 /* ToDo.swift */,
 				6BB70FED207467BD0075C29D /* Main.storyboard */,
 				6BB70FF3207467BE0075C29D /* Assets.xcassets */,
 				6BB70FF5207467BE0075C29D /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				6BB70FF2207467BD0075C29D /* To_Do_List.xcdatamodeld in Sources */,
 				6BB70FFF207473E30075C29D /* ToDoTableViewController.swift in Sources */,
 				6BB70FEA207467BD0075C29D /* AppDelegate.swift in Sources */,
+				6B808464209506580095F1B2 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
