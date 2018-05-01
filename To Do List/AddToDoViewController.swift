@@ -9,6 +9,8 @@
 import UIKit
 
 class AddToDoViewController: UIViewController {
+    
+    var previousVC = ToDoTableViewController()
 
     @IBOutlet weak var taskTextField: UITextField!
     
@@ -24,6 +26,14 @@ class AddToDoViewController: UIViewController {
 
     
     @IBAction func addTapped(_ sender: Any) {
+        let toDo = ToDo()
+        toDo.name = taskTextField.text!
+        toDo.important = importantSwitch.isOn
+        
+        previousVC.toDos.append(toDo)
+        previousVC.tableView.reloadData()
+        
+        navigationController?.popViewController(animated: true)
     }
     
 }
